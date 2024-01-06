@@ -1,0 +1,219 @@
+/* CreateGrocery.css */
+
+/* Example styles - Modify these as needed */
+.form {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+/* Style individual form elements as needed */
+.form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form input[type="text"],
+.form input[type="file"],
+.form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* Navbar.css */
+
+/* Navbar container styles */
+.navbar {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff; /* Light white background color */
+  padding: 20px;
+  /* border-style: solid; */
+  /* border-color: #000000; */
+}
+
+/* Logo styles */
+.logo {
+  width: 180px; /* Adjust the width as needed */
+  height: auto;
+  backface-visibility: inherit;
+  cursor: pointer; /* Maintain aspect ratio */
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+.nav-link:hover {
+  text-decoration: underline; /* Underline on hover (optional) */
+}
+/* Navigation links styles */
+.nav-links h1 {
+  margin: 0 10px;
+  color: #000000; /* Black color for links */
+  /* cursor: pointer; */
+}
+.footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  color: #333;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-right: 20px;
+}
+
+.footer-section h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+}
+/* Grocery card container */
+.grocery-card {
+  display: flex;
+
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  max-width: 455px; /* Adjust the width as needed */
+  margin: 0 auto;
+  background-color: #fff;
+}
+.grocery-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px; /* Adjust the gap between cards */
+}
+/* Grocery image style */
+.grocery-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+/* Other grocery details style */
+/* Shimmer.css */
+.login-form {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.input-field {
+  /* Define your desired styling */
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  /* Add any other common styles */
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* styles.css */
+/* .container {
+ /* Adjust the height according to your layout */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: #b3b3b3;
+  cursor: not-allowed;
+}
+
+.hero-text-container {
+  width: 40%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
